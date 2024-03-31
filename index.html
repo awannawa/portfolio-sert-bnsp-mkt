@@ -121,7 +121,7 @@
                     class="card_image"
                     title="Klik untuk memperbesar gambar Google My Business"
                   >
-                    <img src="img/ss-gmb.png" alt="google-my-business-ss" />
+                    <img src="img/ss-gmb.png" alt="google-my-business-ss" onclick="openModal(this.src)"/>
                   </div>
                   <div class="card_content">
                     <h2 class="card_title">Google My Business</h2>
@@ -141,7 +141,7 @@
                     class="card_image"
                     title="Klik untuk memperbesar gambar Google Ads"
                   >
-                    <img src="img/ss-gad.png" alt="ss-google-ads" />
+                    <img src="img/ss-gad.png" alt="ss-google-ads" onclick="openModal(this.src)" />
                   </div>
                   <div class="card_content">
                     <h2 class="card_title">Google Ads Dashboard</h2>
@@ -161,7 +161,7 @@
                     class="card_image"
                     title="Klik untuk memperbesar gambar Landing Page Web RS Meilia"
                   >
-                    <img src="img/ss-web-rs.png" alt="ss-web-rs" />
+                    <img src="img/ss-web-rs.png" alt="ss-web-rs" onclick="openModal(this.src)"/>
                   </div>
                   <div class="card_content">
                     <h2 class="card_title">Landing Page / Website RS Meilia</h2>
@@ -196,7 +196,7 @@
                   >
                   <img src="img/meta 1.PNG"
                   alt="meta"
-                  title="Klik untuk memperbesar Dashboard Meta" />
+                  title="Klik untuk memperbesar Dashboard Meta" onclick="openModal(this.src)" />
                   </div>
                   <div class="card_content">
                     <h2 class="card_title">Dashboard Meta</h2>
@@ -214,7 +214,7 @@
                   >
                     <img src="img/meta ads.PNG"
                     alt="meta"
-                    title="Klik untuk memperbesar Dashboard Meta Ads" />
+                    title="Klik untuk memperbesar Dashboard Meta Ads" onclick="openModal(this.src)" />
                   </div>
                   <div class="card_content">
                     <h2 class="card_title">Dashboard Meta Ads</h2>
@@ -236,68 +236,25 @@
                 <li>
                   <img
                     src="img/ss-web-rs.png"
-                    alt="awannawa"
+                    alt="awannawa" onclick="openModal(this.src)"
                   />
                 </li>
                 <li>
-                  <img
-                    src="https://source.unsplash.com/random/320x263"
-                    alt="awannawa"
-                  />
+                    <img
+                      src="img/ss-gad.png"
+                      alt="awannawa" onclick="openModal(this.src)"
+                    />
                 </li>
-                <li>
-                  <img
-                    src="https://source.unsplash.com/random/320x264"
-                    alt="awannawa"
-                  />
-                </li>
-                <li>
-                  <img
-                    src="https://source.unsplash.com/random/320x265"
-                    alt="awannawa"
-                  />
-                </li>
-                <li>
-                  <img
-                    src="https://source.unsplash.com/random/320x266"
-                    alt="awannawa"
-                  />
-                </li>
-                <li>
-                  <img
-                    src="https://source.unsplash.com/random/320x267"
-                    alt="awannawa"
-                  />
-                </li>
-                <li>
-                  <img
-                    src="https://source.unsplash.com/random/320x268"
-                    alt="awannawa"
-                  />
-                </li>
-                <li>
-                  <img
-                    src="https://source.unsplash.com/random/320x2692"
-                    alt="awannawa"
-                  />
-                </li>
-                <li>
-                  <img
-                    src="https://source.unsplash.com/random/320x210"
-                    alt="awannawa"
-                  />
-                </li>
-                <!-- Kecil kecil -->
-                <!-- <li><img src="https://source.unsplash.com/random/320x263" alt="awannawa"></li>
-                            <li><img src="https://source.unsplash.com/random/320x264" alt="awannawa"></li>
-                            <li><img src="https://source.unsplash.com/random/320x265" alt="awannawa"></li> -->
               </ul>
               <div class="other">dan Masih banyak lagi...</div>
             </div>
           </div>
         </div>
       </div>
-
+    <div id="myModal" class="modal">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <img class="modal-content" id="modalImg">
+    </div>
       <div id="about">
         <div class="container">
           <h1
