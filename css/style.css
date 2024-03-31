@@ -2,8 +2,8 @@
   margin: 0;
   padding: 0;
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  font-family: 'Poppins';
+  box-sizing: border-box;
+  font-family: "Poppins";
   -webkit-tap-highlight-color: transparent;
 }
 
@@ -68,7 +68,8 @@ header a {
   text-decoration: none;
 }
 
-.show-menu-btn, .hide-menu-btn {
+.show-menu-btn,
+.hide-menu-btn {
   -webkit-transition: 0.4s;
   transition: 0.4s;
   font-size: 30px;
@@ -81,7 +82,9 @@ header a {
   float: right;
 }
 
-.navigation a:hover, .show-menu-btn:hover, .hide-menu-btn:hover {
+.navigation a:hover,
+.show-menu-btn:hover,
+.hide-menu-btn:hover {
   color: black;
   font-weight: 700;
 }
@@ -144,12 +147,12 @@ header a {
   padding-left: 3rem;
   padding-right: 3rem;
   -ms-grid-columns: 1fr 1fr;
-      grid-template-columns: 1fr 1fr;
-      grid-template-areas: "grid-kiri grid-kanan";
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas: "grid-kiri grid-kanan";
   /* grid-gap: 12px; */
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 .grid-top-wrapper .grid-kiri {
@@ -190,8 +193,10 @@ header a {
   outline: none;
   text-decoration: none;
   cursor: pointer;
-  -webkit-transition: color .3s ease-out, background-color .3s ease-out, border-color .3s ease-out;
-  transition: color .3s ease-out, background-color .3s ease-out, border-color .3s ease-out;
+  -webkit-transition: color 0.3s ease-out, background-color 0.3s ease-out,
+    border-color 0.3s ease-out;
+  transition: color 0.3s ease-out, background-color 0.3s ease-out,
+    border-color 0.3s ease-out;
 }
 
 .btn-service:hover {
@@ -221,7 +226,7 @@ header a {
 .cards {
   margin-top: 1rem;
   -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
   list-style: none;
   margin: 0;
   padding: 0;
@@ -237,14 +242,14 @@ header a {
   background-color: white;
   border-radius: 0.25rem;
   -webkit-box-shadow: 0 20px 40px -14px rgba(0, 0, 0, 0.25);
-          box-shadow: 0 20px 40px -14px rgba(0, 0, 0, 0.25);
+  box-shadow: 0 20px 40px -14px rgba(0, 0, 0, 0.25);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   overflow: hidden;
   text-align: center;
   /* align-items: center;
@@ -262,12 +267,14 @@ header a {
 }
 
 .card_image img {
-  height: 120px;
+  height: 165px;
   border: 1px solid rgba(0, 0, 0, 0.25);
-  padding: 7px;
-  border-radius: 50%;
+  padding: 3px;
+  -webkit-box-shadow: 0 20px 40px -14px rgba(0, 0, 0, 0.25);
+  box-shadow: 0 20px 40px -14px rgba(0, 0, 0, 0.25);
+  /* border-radius: 50%;
   -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
+  -moz-border-radius: 50%; */
 }
 
 .card_title {
@@ -277,7 +284,7 @@ header a {
   text-transform: capitalize;
   margin: 0px;
   text-align: center;
-  padding-top: 1rem;
+  /* padding-top: 1rem; */
 }
 
 .card_text {
@@ -319,7 +326,17 @@ header a {
   padding: 5px;
   width: 322px;
   height: 266px;
-  border-radius: 15px;
+  border-radius: 10px;
+  -webkit-box-shadow: 0 20px 40px -14px rgba(0, 0, 0, 0.25);
+  box-shadow: 0 20px 40px -14px rgba(0, 0, 0, 0.25);
+}
+
+.projects-bottom .other {
+  text-align: center;
+  padding-top: 1rem;
+}
+.projects-bottom .other:hover {
+  font-weight: bold;
 }
 
 .projects-bottom {
@@ -377,7 +394,7 @@ header a {
 .gallery-anggota ul {
   margin-top: 1rem;
   -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
   margin: 0;
   padding: 0;
 }
@@ -396,7 +413,7 @@ header a {
   overflow: hidden;
   border: 5px solid #ffffff;
   -webkit-box-shadow: 0 20px 40px -14px rgba(0, 0, 0, 0.25);
-          box-shadow: 0 20px 40px -14px rgba(0, 0, 0, 0.25);
+  box-shadow: 0 20px 40px -14px rgba(0, 0, 0, 0.25);
   padding: 3px;
 }
 
@@ -410,7 +427,7 @@ header a {
   /* height: 130px; */
   margin: auto;
   -webkit-box-shadow: 0 0 8px rgba(0, 0, 10, 0.5);
-          box-shadow: 0 0 8px rgba(0, 0, 10, 0.5);
+  box-shadow: 0 0 8px rgba(0, 0, 10, 0.5);
   text-align: center;
 }
 
