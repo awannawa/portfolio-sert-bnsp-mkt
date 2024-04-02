@@ -27,7 +27,7 @@
   </head>
 
   <body>
-    <header>
+    <header id="header">
       <div class="brand-logo">
         <a href="#"><img src="img/fav.png" alt="awannawa" /></a>
       </div>
@@ -44,6 +44,7 @@
           <li><a class="page-scroll" href="#home">Home</a></li>
           <li><a class="page-scroll" href="#services">Google</a></li>
           <li><a class="page-scroll" href="#meta">Meta</a></li>
+          <li><a class="page-scroll" href="#services2">Tiktok</a></li>
           <li><a class="page-scroll" href="#about">About</a></li>
           <li><a class="page-scroll" href="#contact">Contact</a></li>
           <label for="toggle-btn" class="hide-menu-btn"
@@ -99,8 +100,7 @@
                 </ul>
               </div>
               <div class="grid-kanan">
-                <!-- <img src="https://drive.google.com/uc?export=view&id=1Ll7mL2QQ67LyyAijqoLvy0emCBmk_zy9" -->
-                <img src="https://drive.google.com/uc?export=view&id=1Ll7mL2QQ67LyyAijqoLvy0emCBmk_zy9"
+                <img src="img/image_headers-01.png"
                 alt="image-header-rs" />
               </div>
             </div>
@@ -228,9 +228,9 @@
               </li>
             </ul>
           </div>
-            </div>
-            <hr />
-            <div class="projects-bottom">
+        </div>
+        <hr />
+        <div class="projects-bottom">
               <h3 style="padding-bottom: 10px; padding-top: 20px">
                 Contoh Infografis untuk Media Online
               </h3> 
@@ -285,14 +285,63 @@
                 </li>
               </ul>
               <div class="other">dan Masih banyak lagi...</div>
-            </div>
+        </div>
+      </div>
+
+      <div id="services2">
+        <div class="container">
+          <h1
+            style="text-align: center; padding-top: 1rem; padding-bottom: 1rem"
+          >
+            <strong>Tiktok</strong>
+          </h1>
+          <div class="our-services">
+            <ul class="cards">
+              <li class="cards_item">
+                <div class="card">
+                  <div
+                    class="card_image"
+                    title="Klik untuk memperbesar gambar Google My Business"
+                  >
+                    <img src="img/ss-gmb.png" alt="google-my-business-ss" onclick="openModal(this.src)"/>
+                  </div>
+                  <div class="card_content">
+                    <h2 class="card_title">Halaman Tiktok</h2>
+                    <p class="card_text">
+                      Saya menggunakan Google My Business untuk memanage halaman
+                      Google Map terkait Review, Bot tanya jawab otomatis, dan
+                      maintain review di GMaps agar tampilan RS bagus pada
+                      search engine google.
+                    </p>
+                  </div>
+                </div>
+              </li>
+
+              <li class="cards_item">
+                <div class="card">
+                  <div
+                    class="card_image"
+                    title="Klik untuk memperbesar gambar Google Ads"
+                  >
+                    <img src="img/ss-gad.png" alt="ss-google-ads" onclick="openModal(this.src)" />
+                  </div>
+                  <div class="card_content">
+                    <h2 class="card_title">Dashboard Tiktok Ads</h2>
+                    <p class="card_text">
+                      Google Ads digunakan untuk mempromosikan berbagai macam
+                      media online. Baik dari platform google itu sendiri dan
+                      media sosial fb, ig, tiktok, marketplace. Namun untuk RS
+                      kami jarang menggunakannya karena anggaran terbatas.
+                    </p>
+                  </div>
+                </div>
+              </li>
+
+            </ul>
           </div>
         </div>
       </div>
-    <div id="myModal" class="modal">
-        <span class="close" onclick="closeModal()">&times;</span>
-        <img class="modal-content" id="modalImg">
-    </div>
+
       <div id="about">
         <div class="container">
           <h1
@@ -384,6 +433,10 @@
       </div>
     </footer>
 
+    <div id="myModal" class="modal">
+      <span class="close" onclick="closeModal()">&times;</span>
+      <img class="modal-content" id="modalImg">
+    </div>
     <script type="text/javascript" src="js/simple.min.js"></script>
   </body>
 </html>
