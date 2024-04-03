@@ -297,7 +297,11 @@ header a {
   height: 350px;
   padding: 1rem;
 }
-
+.card_content-ttk {
+  width: 320px;
+  height: 75px;
+  padding: 1rem;
+}
 .card_image {
   padding-top: 3rem;
 }
