@@ -186,7 +186,8 @@ header a {
 
 .grid-kanan img {
   float: right;
-  height: 600px;
+  /* max-width: 750px; */
+  /* height: 600px; */
 }
 
 .btn-service {
