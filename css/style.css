@@ -110,7 +110,7 @@ header a {
   transition: background-color 0.3s, opacity 0.5s, visibility 0.5s;
   opacity: 0;
   visibility: hidden;
-  z-index: 1000;
+  z-index: 999;
   cursor: pointer;
 }
 
@@ -132,12 +132,15 @@ header a {
 /* end of btt */
 /* end of navbar  */
 
-/* Sticky nav
+/* Sticky nav */
 .sticky {
-	position: -webkit-sticky;
-	position: sticky;
+	/* position: -webkit-sticky; */
+	position:sticky;
+  /* height: 4rem; */
+  z-index: 999;
+  background-color: #ebebeb;
 	top: 0;
-} */
+}
 
 
 /* home */
@@ -186,8 +189,8 @@ header a {
 
 .grid-kanan img {
   float: right;
-  /* max-width: 750px; */
-   height: 600px;
+  max-width: 750px;
+   /* height: 600px; */
 }
 
 .btn-service {
